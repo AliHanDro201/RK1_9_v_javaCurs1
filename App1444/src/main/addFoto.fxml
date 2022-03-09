@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: d1d1d1;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.app1444.HomeController">
+    <children>
+        <AnchorPane layoutY="109.0" prefHeight="290.0" prefWidth="700.0" style="-fx-background-color: ffffff;">
+            <children>
+            <ImageView fx:id="image_ButtonHome" fitHeight="290.0" fitWidth="535.0" layoutX="92.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@assets/mounts.png" />
+               </image>
+            </ImageView>
+            </children>
+        </AnchorPane>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="214.0" layoutY="33.0" prefHeight="55.0" prefWidth="278.0" text="Hello World">
+            <font>
+                <Font name="Microsoft JhengHei Light" size="40.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
